@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    /* display: flex; */
+    /* flex-direction: column;
+    align-items: center; */
+    margin: 0;
+    padding: 0;
+    background-color: rgb(215, 229, 123) !important;
+}
+
+/* Navbar */
+.btn-a{
+    background-color: black !important;
+    color: white !important;
+}
+
+.h1-none{
+    display: inline;
+    color: white;
+}
+
+.navbar-a{
+    height: 100px !important;
+}
+
+.center-nav{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-style: italic;
+    background-color: black;
+}
+/* Navbar */
+
+/* JS Work  */
+h1 {
+    margin-top: 20px;
+}
+
+.board-1 {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 100%;
+    margin-top: 20px;
+    padding: 1.5%;
+}
+
+.column-1 {
+    width: 30%;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.column-1 h2 {
+    text-align: center;
+}
+
+.tasks-1 {
+    min-height: 100px;
+    margin-bottom: 10px;
+}
+
+.task {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: move;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* JS Work  */
+
+
